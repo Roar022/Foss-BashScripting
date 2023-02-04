@@ -9,7 +9,22 @@ color() {
 declare -A color_mapping=(
     # TODO: Add more color values
     # Refer bash color codes
-    ['magenta']=35
+    ['Yellow']=33
+    ['Black']=30
+    ['Red']=31
+    ['Green']=32
+    ['Blue']=34
+    ['Magenta']=35
+    ['Cyan']=36
+    ['Light Gray']=37
+    ['Gray']=90	
+    ['Light Red']=91
+    ['Light Green']=92
+    ['Light Yellow']=93
+    ['Light Blue']=94
+    ['Light Magenta']=95
+    ['Light Cyan']=96
+    ['White']=97
 )
 
 if [[ $1 == 'reset' ]]; then
